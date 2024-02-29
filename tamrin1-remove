@@ -1,0 +1,7 @@
+a=["ali","fatem","bahra"]
+
+  def my _fun(n):
+      print(a)
+      a.remove(n)
+      print(a)
+my_fun("ali")
