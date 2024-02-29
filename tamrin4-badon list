@@ -1,0 +1,19 @@
+class myfood:
+  def __iter__(self):
+  self.b=30
+  return self
+
+  def __next__(self):
+   x=self.b
+  self.b+=3
+  return x
+mystr=myfood()
+myit=iter(mystr)
+
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+
