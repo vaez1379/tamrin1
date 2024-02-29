@@ -1,0 +1,10 @@
+class names:
+    def init(self,list1, list2):
+      self.list1 = list1
+      self.list2 = list2
+      
+    def my_fun(b):
+     print(b.list1)
+    
+p1=names("sara",1379)
+p1.my_fun()
