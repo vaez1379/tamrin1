@@ -1,0 +1,7 @@
+a=["ali","fatem","bahra"]
+
+  def my _fun(n):
+      print(a)
+      a.append(n)
+      print(a)
+my_fun("aliraze")
