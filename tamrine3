@@ -1,0 +1,13 @@
+class food :
+  def __init__(self,name,noshdani):
+   self.fname = name
+   self.fnoshdani= noshdani
+  def printname(self):
+   print (self.fname,self.noshdani)
+
+class customer(food)
+   def __init__(self,name,noshdani):
+    super().__init__(name,noshdani)
+    self.time=12
+p1=customer("soup","ma")
+print(p1.time)
