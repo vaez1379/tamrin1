@@ -1,3 +1,5 @@
+#tamrin 1-add
+
 a=["ali","fatem","bahra"]
 
   def my _fun(n):
@@ -5,3 +7,65 @@ a=["ali","fatem","bahra"]
       a.append(n)
       print(a)
 my_fun("aliraze")
+
+#tamrin1-remove
+a=["ali","fatem","bahra"]
+
+  def my _fun(n):
+      print(a)
+      a.remove(n)
+      print(a)
+my_fun("ali")
+
+#tamrin2
+class names:
+    def init(self,list1, list2):
+      self.list1 = list1
+      self.list2 = list2
+      
+    def my_fun(b):
+     print(b.list1)
+    
+p1=names("sara",1379)
+p1.my_fun()
+
+#tamrine3
+class food :
+  def __init__(self,name,noshdani):
+   self.fname = name
+   self.fnoshdani= noshdani
+  def printname(self):
+   print (self.fname,self.noshdani)
+
+class customer(food)
+   def __init__(self,name,noshdani):
+    super().__init__(name,noshdani)
+    self.time=12
+p1=customer("soup","ma")
+print(p1.time)
+
+#tamrin4-badon list
+class myfood:
+  def __iter__(self):
+  self.b=30
+  return self
+
+  def __next__(self):
+   x=self.b
+  self.b+=3
+  return x
+mystr=myfood()
+myit=iter(mystr)
+
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
+
+# tamrin4-be list
+myname = ("sara","ali","sina")
+
+for x myname:
+  print(x)
